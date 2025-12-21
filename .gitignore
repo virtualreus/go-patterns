@@ -1,0 +1,59 @@
+# Временные файлы Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Бинарные файлы
+/bin/
+/dist/
+/out/
+
+# Тестовые файлы
+*.test
+*.out
+
+# Временные файлы сборки
+/tmp/
+/var/
+
+# Зависимости (если не используете go modules)
+/vendor/
+*/vendor/
+
+# Кэш Go
+# go 1.11+
+go.sum
+
+# IDE - GoLand
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code (если используете)
+.vscode/
+
+# JetBrains Rider (альтернатива GoLand)
+*.sln.iml
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# Профили и покрытие кода
+*.prof
+*.cpuprof
+*.memprof
+*.cover
+coverage.txt
+profile.out
+
+# Конфигурационные файлы (если нужно игнорировать)
+# config.yaml
+# .env
+# .env.local
