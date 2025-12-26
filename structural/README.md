@@ -3,9 +3,9 @@
 
 Существуют:
 - Адаптер (adapter)
-- Мост (bridge)
-- Компоновщик (composite)
-- Декоратор (decorator)
-- Фасад (facade)
-- Легковес (flyweight)
-- Заместитель (proxy)
+  - Мост (bridge)
+  - Компоновщик (composite)
+  - Декоратор (decorator)
+  - Фасад (facade)
+  - Легковес (flyweight)
+  - Заместитель (proxy)
