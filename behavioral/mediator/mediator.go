@@ -1,6 +1,8 @@
 package mediator
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // паттерн проектирования, который позволяет уменьшить связанность множества классов между собой, благодаря перемещению этих связей в один класс-посредник.
 
@@ -11,7 +13,6 @@ type ControlTower struct {
 
 func (c *ControlTower) RequestTakeoff(plane *Plane) {
 	fmt.Printf("Диспетчер: %s запрашивает взлет\n", plane.Name)
-
 	// Проверяем, можно ли взлететь
 	canTakeoff := true
 	for _, p := range c.planes {
